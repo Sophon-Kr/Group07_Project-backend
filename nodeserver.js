@@ -15,7 +15,7 @@ UsrComment = require('./api/model/usrCommentListModel')
 bodyParser = require('body-parser')
 
 
-const uri ="mongodb://localhost/UserDb" 
+const uri ="mongodb+srv://rangsimants:<password>@cluster0.h3xk7.mongodb.net/Cactus" 
 
 mongoose.Promise = global.Promise
 mongoose.connect(uri, function(error){
